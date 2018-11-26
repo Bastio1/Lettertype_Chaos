@@ -77,30 +77,30 @@
             // randomizeFontToolStripMenuItem
             // 
             this.randomizeFontToolStripMenuItem.Name = "randomizeFontToolStripMenuItem";
-            this.randomizeFontToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.randomizeFontToolStripMenuItem.Size = new System.Drawing.Size(120, 26);
             this.randomizeFontToolStripMenuItem.Text = "&Open";
             // 
             // saveToolStripMenuItem
             // 
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(120, 26);
             this.saveToolStripMenuItem.Text = "&Save";
             // 
             // newToolStripMenuItem
             // 
             this.newToolStripMenuItem.Name = "newToolStripMenuItem";
-            this.newToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.newToolStripMenuItem.Size = new System.Drawing.Size(120, 26);
             this.newToolStripMenuItem.Text = "&New";
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(213, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(117, 6);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(120, 26);
             this.exitToolStripMenuItem.Text = "E&xit";
             // 
             // toolsToolStripMenuItem1
@@ -115,14 +115,15 @@
             // wordCountToolStripMenuItem
             // 
             this.wordCountToolStripMenuItem.Name = "wordCountToolStripMenuItem";
-            this.wordCountToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.wordCountToolStripMenuItem.Size = new System.Drawing.Size(192, 26);
             this.wordCountToolStripMenuItem.Text = "&Word Count";
             // 
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(216, 26);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(192, 26);
             this.toolStripMenuItem2.Text = "&Randomize Font";
+            this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
             // 
             // FontRandomizer
             // 
@@ -133,7 +134,7 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "FontRandomizer";
-            this.Text = "Form1";
+            this.Text = "SampleText";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
