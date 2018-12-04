@@ -134,9 +134,9 @@ namespace Lettertype_Chaos
             CountWordsAndCharacters();
         }
 
-        private void toolStripMenuItem2_Click(object sender, EventArgs e)
+        private void randomizeFontToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            // add font randomizer code here...
+            // Add font randomizer here
         }
     }
 }
